@@ -1,11 +1,11 @@
-from main import RandomData
+import random
+from main import randomdatagen
  
-a=RandomData()
-#ism=a.randomName()
-t=a.RandomNames()
+
 #shaxar=a.randomCapitals()
-t2=erandomNames
-print(t2)
+
+test=randomdatagen.numbers(3)
 #print('Salom mening ismim {}'.format(ism))
 #print('men {}da yashayman'.format(shaxar))
-print(t)
+
+print(test)
